@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ayesha's Beauty Zone</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      Ayesha's <span>Beauty Zone</span>
+    </div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#products">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="cart-btn">🛒 Cart</button>
+  </header>
+
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+
+      <p class="small-title">WELCOME TO</p>
+
+      <h1>
+        Ayesha's<br>
+        <span>Beauty Zone</span>
+      </h1>
+
+      <p class="hero-text">
+        Where Fashion Meets Beauty ✨
+      </p>
+
+      <p class="description">
+        Discover beautiful fashion, skincare,
+        jewelry and trendy collections.
+      </p>
+
+      <a href="#products" class="shop-btn">
+        Shop Now →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- Categories -->
+  <section id="categories" class="section">
+
+    <p class="section-small">EXPLORE</p>
+
+    <h2>Shop By Category</h2>
+
+    <div class="categories">
+
+      <div class="category">
+        <div class="category-icon">💄</div>
+        <h3>Beauty</h3>
+        <p>Beauty & Skincare</p>
+      </div>
+
+      <div class="category">
+        <div class="category-icon">👗</div>
+        <h3>Clothing</h3>
+        <p>Fashion Collection</p>
+      </div>
+
+      <div class="category">
+        <div class="category-icon">💎</div>
+        <h3>Jewelry</h3>
+        <p>Beautiful Jewelry</p>
+      </div>
+
+      <div class="category">
+        <div class="category-icon">♻️</div>
+        <h3>Thrift</h3>
+        <p>Unique Collections</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Products -->
+  <section id="products" class="section products-section">
+  
+    <p class="section-small">OUR COLLECTION</p>
+  
+    <h2>Featured Products</h2>
+  
+    <div class="products">
+  
+      <!-- Product 1 -->
+      <div class="product">
+  
+        <img
+          src="https://i.ibb.co/fdddMY62/IMG-5796.jpg"
+          alt="Mikeo Fiber XS"
+          class="product-photo"
+        >
+  
+        <div class="product-info">
+  
+          <p class="product-category">WELLNESS</p>
+  
+          <h3>Mikeo Fiber XS</h3>
+  
+          <p class="price">৳ 000</p>
+  
+          <button onclick="orderProduct('Mikeo Fiber XS', 0)">
+            Order Now
+          </button>
+  
+        </div>
+  
+      </div>
+  
+  
+      <!-- Product 2 -->
+      <div class="product">
+  
+        <img
+          src="https://i.ibb.co/9m5ZX0Df/IMG-5797.jpg"
+          alt="Mikeo Fiber XS Berry Zinc"
+          class="product-photo"
+        >
+  
+        <div class="product-info">
+  
+          <p class="product-category">WELLNESS</p>
+  
+          <h3>Mikeo Fiber XS Berry Zinc</h3>
+  
+          <p class="price">৳ 000</p>
+  
+          <button onclick="orderProduct('Mikeo Fiber XS Berry Zinc', 0)">
+            Order Now
+          </button>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </section>
+    
+
+  </section>
+
+
+  <!-- About -->
+  <section id="about" class="about">
+
+    <div>
+
+      <p class="section-small">ABOUT US</p>
+
+      <h2>Where Fashion<br>Meets Beauty ✨</h2>
+
+      <p>
+        Welcome to Ayesha's Beauty Zone.
+        We bring together fashion, beauty,
+        jewelry and trendy collections
+        in one place.
+      </p>
+
+      <button class="shop-btn">
+        Explore Collection
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- Contact -->
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+  
+    <p class="section-small">GET IN TOUCH</p>
+  
+    <h2>Contact Us</h2>
+  
+    <p class="contact-text">
+      অর্ডার বা যেকোনো তথ্যের জন্য আমাদের সাথে যোগাযোগ করুন।
+    </p>
+  
+    <div class="contact-box">
+  
+      <!-- WhatsApp -->
+      <div class="contact-item">
+        <strong>📱 WhatsApp</strong>
+        <p>01606-247828</p>
+  
+        <a href="https://wa.me/8801606247828" target="_blank" class="contact-btn">
+          WhatsApp করুন
+        </a>
+      </div>
+  
+      <!-- Facebook -->
+      <div class="contact-item">
+        <strong>📘 Facebook</strong>
+        <p>Ayesha's Beauty Zone</p>
+  
+        <a href="https://www.facebook.com/share/1Buucs958K/?mibextid=wwXIfr" target="_blank" class="contact-btn">
+          Facebook Page
+        </a>
+      </div>
+  
+      <!-- Address -->
+      <div class="contact-item">
+        <strong>📍 Address</strong>
+        <p>Bangladesh</p>
+      </div>
+  
+    </div>
+  
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <h3>Ayesha's Beauty Zone</h3>
+
+    <p>Where Fashion Meets Beauty ✨</p>
+
+    <p>© 2026 Ayesha's Beauty Zone</p>
+
+  </footer>
+
+
+</body>
+</html>
